@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box img {
+    width: 50px;
+    height: 50px;
+}
+
+.title img {
+    height: 50px;
+    width: 50px;
+
+}
